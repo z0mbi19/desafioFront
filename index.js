@@ -27,7 +27,7 @@ const getUser = (e) => {
       document.getElementById("followers").innerHTML =
         "followers: " + responseData.followers;
       document.getElementById("following").innerHTML =
-        "renderRepos: " + responseData.following;
+        "following: " + responseData.following;
     })
     .catch((err) => {
       console.log(err);
